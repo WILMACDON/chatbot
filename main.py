@@ -6,7 +6,7 @@ import speech_recognition as sr
 engine = pyttsx3.init()
 
 def askGPT(text):
-    openai.api_key = "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"
+    openai.api_key = ""
     response = openai.Completion.create(
         engine = "text-davinci-003",
         prompt = text,
